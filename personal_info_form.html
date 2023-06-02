@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <style>.button {
+        background-color: #e2641a;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      </style>
+    <title>personal information form</title>
+    </head>
+<body bgcolor="cyber" width="100%">
+    <center>
+    <div style="color: red;">
+<p><b>Personal details</b></p></div>
+<form>
+    Name:
+    <input type="text" id="fname" name="fname"><br><br>
+    Password:
+    <input type="password" id="password" name="password"><br><br>
+    Email id:
+    <input type="text" id="email" name="email"><br><br>
+    Gender:
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female <br><br>
+    Contact:
+    <input type="number" id="contact" name="contact"><br>
+    <div style="color: red;"><p><b>Educational Qualifications</b></p></div>
+    Degree:
+    <select name="dropdown">
+        <option value="btech">B.tech</option>
+        <option value="btechhons">B.tech(hons)</option>
+    </select><br><br>
+    Engineering:
+    <select name="dropdown">
+       <option value="mech">Mechanical Engineering</option>
+       <option value="cse">Computer Science Engineering</option>
+       <option value="ece">Electronics & Comm Engineering</option>
+       <option value="civil">Civil Engineering</option>
+       <option value="ele">Electrical Engineering</option>
+
+    </select><br><br>
+    Hobbies:
+    <input type="radio" name="hobbies" value="reading">Reading Books
+    <input type="radio" name="hobbies" value="playing chess">Playing chess<br><br>
+    <div style="color: red;"><p><b>Address</b></p></div>
+    <textarea rows="5" cols="50" name="Address"></textarea><br><br>
+    Attach resume:
+    <input type="file" name="fileupload" accept="pdf*/"><br><br>
+    <input type="button" class="button" value="Submit">
+
+
+</center>
+  </form>
+
+
+</body>
+</html>
